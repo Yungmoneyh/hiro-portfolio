@@ -1,0 +1,135 @@
+<!-- Says the document type and version (HTML5) -->
+<!DOCTYPE html>
+<!-- Language is set to english -->
+<html lang="en">
+    <head>
+        <!-- This is the title of the page, appears in the top browser tab -->
+        <title>Contact Information</title>
+    
+    <!-- STYLE SHEETS CSS FILES: These files make the site look good on any device. -->
+
+    <!--style editing for all devices. -->
+    <link rel="stylesheet" href="main.css">
+    <!--style editing for big screens (desktops). -->
+    <link rel="stylesheet" href="main-desktop.css" media="screen and (min-width: 1025px)">
+    <!--style editing for medium screens (tablets). -->
+    <link rel="stylesheet" href="main-tablet.css" media="screen and (min-width:481px) and (max-width:1024px)">
+    <!--style editing for small screens (phones). -->
+    <link rel="stylesheet" href="main-mobile.css" media="screen and (max-width: 480px)">
+    </head>
+
+    <body>
+            <!-- HEADER -->
+              <header>
+                <!-- Header saying "Contact Me" at the top of the page -->
+                <h2> Contact Me</h2>
+                <!-- Mailto email address that people can click and access to send emails to me -->
+                <a href="mailto:Hirosan.Ravichandran@ontariotechu.net">Hirosan.Ravichandran@ontariotechu.net</a>
+
+                 <!-- NAVIGATION MENU 
+                Links to different pages in the website.
+                Helps visitors move around the portfolio with a click of a button. -->
+                <nav>
+
+                     <!--  This shows the "About Me" button on the page -->
+                      <a href="about.html">About Me</a>
+                    <!--  This shows the "My Projects" button on the page -->
+                    <a href="project.html">My Projects</a>
+                    <!--  This shows the "Contact" button on the page -->
+                    <a href="contact.html">Contact</a> 
+                    </nav>
+
+           </header>
+<!-- This ends the header section of the page -->
+
+<form action="mailto:Hirosan.Ravichandran@ontariotechu.net?subject=Feedback from website"
+enctype="text/plain" method="post" name="Contact">
+<!-- This is the start of the contact form.
+     action="mailto:" means form will be sent to my email if they click my email.
+     enctype="text/plain" sends plain text.
+     method="post" is how the data is sent -->
+
+<p>
+    <label for="FirstName">First Name: </label><br>
+    <!-- Label for first name -->
+    <input type="text" name="FirstName" size="40"
+    placeholder="Enter your first name" required>
+    <!-- Input box for first name and it is required field -->
+</p>
+
+<p>
+    <label for="LastName">Last Name: </label><br>
+    <!-- Label for last name -->
+    <input type="text" name="LastName" size="40"
+    placeholder="Enter your last name" required>
+    <!-- Input box for last name and it is required field -->
+</p>
+
+<p>
+    <label for="Email">Email: </label><br>
+    <!-- Label for email -->
+    <input type="email" name="Email" size="40"
+    placeholder="example@gmail.com" required>
+    <!-- Input box for email and it is a required field must be a valid email -->
+</p>
+
+<p>
+    <label for="phone">Phone Number:</label>
+    <!-- Label for phone number input -->
+    <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required><br>
+    <!-- Input box for phone, required field, must match 10 digits -->
+</p>
+
+<p>
+    <label for="comments">Comments: </label><br>
+    <!-- Label for comments section -->
+    <textarea name="comments" cols="50" rows="8"></textarea>
+    <!-- Multi-line box for user comments -->
+</p>
+
+<p>
+    <input type="reset" value="Reset">
+    <!-- Button to clear all fields -->
+    <input type="submit" value="Submit">
+    <!-- Extra text "form", seems like leftover -->
+</p>
+
+<p>
+    <label for="Question">Are you interested in Cybersecurity?</label> 
+    <!-- Label for question about cybersecurity -->
+    <input list="yes/no"> 
+    <!-- Input box with list of options -->
+    <datalist id="yes/no"> 
+        <option value="Yes"> 
+        <option value="No"> 
+    </datalist>
+    <br><br>
+
+    <input type="reset" value="Reset">
+    <!-- Another reset button -->
+    <input type="submit" value="Submit">
+    <!-- Another submit button -->
+
+    <img src="telephone-cartoon-png-favpng-SfjcXzCFJLxrcAC3uD2FXBbbe-removebg-preview.png" alt="Telephone picture">
+    <!-- Picture of a telephone -->
+    <img src="88e14cc7e7fcbb0e0e09de26cec86c61-removebg-preview.png" alt="Gmail picture">
+    <!-- Picture of Gmail icon -->
+</p>
+</form>
+<!-- End of the contact form -->
+
+<footer>
+    <!-- This is my contact details -->
+    <h1>Contact Me:</h1>
+    <!-- Contact info with email link that is clickable and accessible. -->
+    <p>Email:</p>
+    <!-- This is a mailto link so people can email me or contact me with one click. -->
+    <a href="mailto:Hirosan.Ravichandran@ontariotechu.net">Hirosan.Ravichandran@ontariotechu.net</a>
+    <!-- Displays copyright to show that the work is mine. --> 
+    <p>@ 2025 Hirosan Ravichandran | Networking and IT Security</p>
+</footer>
+
+</body>
+</html>
+
+<!-- END OF CODE -->

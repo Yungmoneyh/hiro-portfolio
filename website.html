@@ -1,14 +1,101 @@
+<!-- Says the document type and version (HTML5) -->
 <!DOCTYPE html>
+<!-- Language is set to english -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1 style="color: red; background-color: yellow; "> CSS TUTORIAL</h1>
-    <p style="color: turquoise; background-color: brown;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quo maxime deserunt sequi tempore quod, rem voluptates provident autem maiores nobis quos delectus quibusdam eius facere dolor temporibus nostrum harum!</p>
 
-</body>
-</html>
+    <!-- INFO ABOUT THE PAGE  -->
+
+    <!-- sets the text format (UTF-8 works for almost every language). -->
+    <meta charset="UTF-8">
+    <!-- makes the page resize for each device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- controls the name shown on the browser tab. -->
+    <title>Hiro's Porfolio</title>
+
+    <!-- STYLE SHEETS CSS FILES: These files make the site look good on any device. -->
+
+    <!--style editing for all devices. -->
+    <link rel="stylesheet" href="main.css">
+    <!--style editing for big screens (desktops). -->
+    <link rel="stylesheet" href="main-desktop.css" media="screen and (min-width: 1025px)">
+    <!--style editing for medium screens (tablets). -->
+    <link rel="stylesheet" href="main-tablet.css" media="screen and (min-width:481px) and (max-width:1024px)">
+    <!--style editing for small screens (phones). -->
+    <link rel="stylesheet" href="main-mobile.css" media="screen and (max-width: 480px)">
+</head>
+
+<header>
+     <!-- HEADER SECTION  -->
+
+    <!-- - Shows the site title (Hirosan Ravichandran). -->
+    <h1>Hirosan Ravichandran</h1>
+    <!-- Includes a short tagline (what I study + my career goals). -->
+    <p>Networking and IT Security Student | Future Cybersecurity Expert</p>
+    <!-- Navigation bar links that connect to different pages -->
+    <nav>
+        <!-- NAVIGATION MENU 
+    Links to different pages in the website.
+    Helps visitors move around the portfolio with a click of a button. -->
+
+            <!--  This shows the "About Me" button on the page -->
+            <a href="about.html">About Me</a>
+             <!--  This shows the "My Projects" button on the page -->
+            <a href="project.html">My Project</a>
+             <!--  This shows the "Contact" button on the page -->
+            <a href="contact.html">Contact</a>     
+    </nav>
+</header>
+
+
+<!-- MAIN CONTENT -->
+
+<!-- This is basically the central part of the home page -->
+ <!-- Gives a welcome to people visiting the website -->
+  <!-- Has a picture and light description and link to projects and other pages -->
+
+<main>
+    <section>
+        <!-- This is the heading of the entire page -->
+        <h2>Welcome to My Profile</h2>
+
+        <!-- Includes profile picture and alt description for accessibility -->
+        <img src="myself.jpeg" alt="Hirosan Ravichandran Picture" width="180">
+        
+        <!-- Little introduction about myself -->
+        <p>Hello, my name is Hirosan Ravichandran. I am studying <strong>Networking and IT Security</strong> at Ontario Tech University. 
+            This website has multiple different sections, you can get to know more about other projects I've done, 
+            skills I have built overtime and my overall experience in learning Networking and Cybersecurity.</p>
+
+            <!-- This is the link/button to click to access the projects -->
+            <h2>Click Below to View My Other projects:<h2>
+                <p>
+            <a href="project.html">Hiro's Projects</a>
+            <p>
+    </section>
+</main>
+   
+
+<!-- FOOTER SECTION  -->
+
+<footer>
+    <!-- This is my contact details -->
+    <h1>Contact Me:</h1>
+    <!-- Contact info with email link that is clickable and accessible. -->
+    <p>Email:</p>
+    <!-- This is a mailto link so people can email me or contact me with one click. -->
+    <a href="mailto:Hirosan.Ravichandran@ontariotechu.net">Hirosan.Ravichandran@ontariotechu.net</a>
+    <!-- Displays copyright to show that the work is mine. --> 
+    <p>@ 2025 Hirosan Ravichandran | Networking and IT Security</p>
+</footer>
+<body>
+    <html>
+
+    <!-- END OF CODE -->
+
+
+
+
+
+
+

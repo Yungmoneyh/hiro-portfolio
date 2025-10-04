@@ -1,0 +1,34 @@
+/* <----------- MOBILE CSS FILE -----------> */
+/* This file is for phones and very small screens */
+
+ /* smaller text for phones */
+body {
+  font-size: 14px;
+  padding: 10px;
+}
+
+ /* smaller header text */
+header h1 {
+  font-size: 1.5rem;
+}
+
+ /* stack menu links */
+nav {
+  display: block;
+  margin-top: 10px;
+}
+
+ /* links on new lines */
+ /* simple border so they look like buttons */
+nav a {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #fda085;
+}
+
+ /* image shrinks to fit screen */
+img {
+  max-width: 100%;
+  height: auto;
+}

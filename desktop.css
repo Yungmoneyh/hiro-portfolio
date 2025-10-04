@@ -1,0 +1,40 @@
+/* <----------- DESKTOP CSS FILE -----------> */
+/* styles for laptops and big monitors (1025px and up) */
+/* larger fonts, more spacing, and keeps text easy to read */
+
+
+/* This is a larger font and its good for desktop screens */
+body {
+  font-size: 20px;
+  padding: 45px;
+}
+
+
+/* large header text */
+header h1 {
+  font-size: 2.3rem;
+}
+
+
+/* spread out navigation links */
+nav a {
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+
+/* keep sections narrow so text doesn’t stretch too far */
+main section {
+  max-width: 800px;
+  margin: 45px auto;
+  padding: 40px;
+}
+
+
+/* images smaller so they don’t take up the whole screen */
+img {
+  max-width: 60%;
+  display: block;
+  margin: 20px auto;
+}
+
