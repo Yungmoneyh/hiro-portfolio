@@ -4,7 +4,11 @@ Name: Hirosan Ravichandran  | 100970128
 
 Course: Networking and IT Security  
 
-Year: 2025  
+Year: 2025   
+
+Website Link: https://yungmoneyh.github.io/hiro-portfolio/
+
+REPO Link: https://github.com/Yungmoneyh/hiro-portfolio/edit/main/README.md 
 
  
 
@@ -61,5 +65,7 @@ In order to view the page you have to open the website.html code and open to lin
 Once you go onto any of the pages you have to click any one of the links at the top of the page to go to any of the other pages or other HTML files, which includes the about me page, contact page, project page aswell as the main homepage.
 
 In the code you can also resize the window to see how it looks on different devices such as mobile devices (smaller device), tablets (medium size device) and desktop (bigger device).
+
+
 
  
